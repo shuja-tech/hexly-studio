@@ -9,6 +9,19 @@
       content="Hexly is a premium web and design studio building modern, high-performing websites and visual brands."
     />
     <meta name="theme-color" content="#0B0B0F" />
+    <script>
+      // Force light theme on initial paint (no system-theme priority).
+      // This prevents a flash of dark if a user previously visited.
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme');
+          // Default to light. Only dark if explicitly stored as dark.
+          var theme = (stored === 'dark') ? 'dark' : 'light';
+          document.documentElement.classList.toggle('dark', theme === 'dark');
+        } catch (e) {}
+      })();
+    </script>
+
     <meta property="og:title" content="Hexly | Web & Design Studio" />
     <meta
       property="og:description"

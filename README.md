@@ -8,9 +8,6 @@ Modern, responsive web & design studio website built with React, Vite, and Tailw
 
 [Live Demo](https://hexly-studio.vercel.app/) • [Features](#features) • [Tech Stack](#tech-stack) • [Setup Guide](#quick-start) • [Architecture](#architecture)
 
-
-### Live URL
-**[https://hexly-studio.vercel.app/](https://hexly-studio.vercel.app/)**
 </div>
 
 ---
@@ -380,5 +377,4 @@ For issues, questions, or suggestions:
 [Visit Live Site](https://hexly-studio.vercel.app/) • [Report Bug](https://github.com/yourusername/hexly/issues) • [Request Feature](https://github.com/yourusername/hexly/issues)
 
 </div>
-
 
