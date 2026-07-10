@@ -3,6 +3,25 @@ import { motion, useReducedMotion } from 'framer-motion'
 import HexGridCanvas from './components/HexGridCanvas'
 import lightLogoImg from './assets/lightlogo.png'
 import darkLogoImg from './assets/darklogo.png'
+import chocoMainImg from './assets/chocomelt_main.jpeg'
+import choco1Img from './assets/chocomelt1.jpeg'
+import choco2Img from './assets/chocomelt2.jpeg'
+import choco3Img from './assets/chocomelt3.jpeg'
+import noorBakersMainImg from './assets/noorbakers_main.jpeg'
+import noorBakers1Img from './assets/noorbakers1.jpeg'
+import noorBakers2Img from './assets/noorbakers2.jpeg'
+import noorBakers3Img from './assets/noorbakers3.jpeg'
+import solPlantMainImg from './assets/SolPlantmain.png'
+import solPlant2Img from './assets/solplant2.png'
+import solPlant3Img from './assets/solplant3.png'
+import prefixMainImg from './assets/prefixmain.png'
+import prefix1Img from './assets/prefix1.png'
+import prefix2Img from './assets/prefix2.png'
+import prefix3Img from './assets/prefix3.png'
+import hexlyMainImg from './assets/hexlymain.png'
+import hexly1Img from './assets/hexly1.png'
+import hexly2Img from './assets/hexly2.png'
+import hexly3Img from './assets/hexly3.png'
 
 
 
@@ -35,8 +54,7 @@ const portfolioItems = [
     id: 'choco-melt',
     title: 'ChocoMelt',
     description: 'E-commerce storefront with bold product visuals, smooth browsing, and conversion-ready sections.',
-    link: '',
-
+    link: 'https://hexly-studio.vercel.app/',
 
     image: chocoMainImg,
     screenshots: [choco1Img, choco2Img, choco3Img],
@@ -48,12 +66,8 @@ const portfolioItems = [
     description: 'Luxury bakery branding and menu-first layout designed for trust and fast decisions.',
     link: '',
 
-    image: '/src/assets/noorbakers_main.jpeg',
-    screenshots: [
-      '/src/assets/noorbakers1.jpeg',
-      '/src/assets/noorbakers2.jpeg',
-      '/src/assets/noorbakers3.jpeg',
-    ],
+    image: noorBakersMainImg,
+    screenshots: [noorBakers1Img, noorBakers2Img, noorBakers3Img],
     tags: ['Brand', 'Landing', 'Design'],
   },
   {
@@ -62,11 +76,8 @@ const portfolioItems = [
     description: 'Sustainable product landing with clean content hierarchy and responsive layout blocks.',
     link: 'https://shuja-tech.github.io/SolPlant-smit/',
 
-    image: '/src/assets/SolPlantmain.png',
-    screenshots: [
-      '/src/assets/solplant2.png',
-      '/src/assets/solplant3.png',
-    ],
+    image: solPlantMainImg,
+    screenshots: [solPlant2Img, solPlant3Img],
     tags: ['Landing', 'UI', 'Sustainability'],
   },
   {
@@ -75,12 +86,8 @@ const portfolioItems = [
     description: 'A modern studio portfolio system with strong typography and consistent card patterns.',
     link: 'https://shuja-tech.github.io/Prefix-e-com-with-AIAgent/',
 
-    image: '/src/assets/prefixmain.png',
-    screenshots: [
-      '/src/assets/prefix1.png',
-      '/src/assets/prefix2.png',
-      '/src/assets/prefix3.png',
-    ],
+    image: prefixMainImg,
+    screenshots: [prefix1Img, prefix2Img, prefix3Img],
     tags: ['Portfolio', 'Design', 'System'],
   },
   {
@@ -89,12 +96,8 @@ const portfolioItems = [
     description: 'Brand and portfolio system for showcasing products, services, and responsive UI components.',
     link: 'https://hexly-studio.vercel.app/',
 
-    image: '/src/assets/hexlymain.png',
-    screenshots: [
-      '/src/assets/hexly1.png',
-      '/src/assets/hexly2.png',
-      '/src/assets/hexly3.png',
-    ],
+    image: hexlyMainImg,
+    screenshots: [hexly1Img, hexly2Img, hexly3Img],
     tags: ['Brand', 'Portfolio', 'UI'],
   },
 

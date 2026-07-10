@@ -27,7 +27,7 @@ export default function ChatAgent() {
     setIsLoading(true)
 
     try {
-      const response = await fetch('/api/chat', {
+      const response = await fetch('/api', {
 
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
