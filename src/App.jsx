@@ -38,12 +38,8 @@ const portfolioItems = [
     link: '',
 
 
-    image: '/src/assets/chocomelt_main.jpeg',
-    screenshots: [
-      '/src/assets/chocomelt1.jpeg',
-      '/src/assets/chocomelt2.jpeg',
-      '/src/assets/chocomelt3.jpeg',
-    ],
+    image: chocoMainImg,
+    screenshots: [choco1Img, choco2Img, choco3Img],
     tags: ['E-commerce', 'UI', 'Brand'],
   },
   {
